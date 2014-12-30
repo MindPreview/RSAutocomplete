@@ -18,19 +18,10 @@ static NSString	* const kUNIXWordsFilePath = @"/usr/share/dict/words";
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-
-    // Do any additional setup after loading the view.
+-(void)awakeFromNib{
+    [super awakeFromNib];
     self.textField.delegate = self;
 }
-
-- (void)setRepresentedObject:(id)representedObject {
-    [super setRepresentedObject:representedObject];
-
-    // Update the view, if already loaded.
-}
-
 
 - (void) controlTextDidChange: (NSNotification *)note {
     NSTextView * fieldEditor = [[note userInfo] objectForKey:@"NSFieldEditor"];
