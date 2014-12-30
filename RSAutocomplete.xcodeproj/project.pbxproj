@@ -12,18 +12,7 @@
 		0F978BB71A50E8DD009B373F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F978BB61A50E8DD009B373F /* ViewController.m */; };
 		0F978BB91A50E8DD009B373F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F978BB81A50E8DD009B373F /* Images.xcassets */; };
 		0F978BBC1A50E8DD009B373F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F978BBA1A50E8DD009B373F /* Main.storyboard */; };
-		0F978BC81A50E8DD009B373F /* RSAutocompleteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F978BC71A50E8DD009B373F /* RSAutocompleteTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0F978BC21A50E8DD009B373F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0F978BA31A50E8DC009B373F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0F978BAA1A50E8DD009B373F;
-			remoteInfo = RSAutocomplete;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0F978BAB1A50E8DD009B373F /* RSAutocomplete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSAutocomplete.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,20 +24,12 @@
 		0F978BB61A50E8DD009B373F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0F978BB81A50E8DD009B373F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0F978BBB1A50E8DD009B373F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0F978BC11A50E8DD009B373F /* RSAutocompleteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSAutocompleteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F978BC61A50E8DD009B373F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F978BC71A50E8DD009B373F /* RSAutocompleteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAutocompleteTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0F978BA81A50E8DD009B373F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0F978BBE1A50E8DD009B373F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				0F978BAB1A50E8DD009B373F /* RSAutocomplete.app */,
-				0F978BC11A50E8DD009B373F /* RSAutocompleteTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,24 +116,6 @@
 			productReference = 0F978BAB1A50E8DD009B373F /* RSAutocomplete.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0F978BC01A50E8DD009B373F /* RSAutocompleteTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0F978BCE1A50E8DD009B373F /* Build configuration list for PBXNativeTarget "RSAutocompleteTests" */;
-			buildPhases = (
-				0F978BBD1A50E8DD009B373F /* Sources */,
-				0F978BBE1A50E8DD009B373F /* Frameworks */,
-				0F978BBF1A50E8DD009B373F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0F978BC31A50E8DD009B373F /* PBXTargetDependency */,
-			);
-			name = RSAutocompleteTests;
-			productName = RSAutocompleteTests;
-			productReference = 0F978BC11A50E8DD009B373F /* RSAutocompleteTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,10 +127,6 @@
 				TargetAttributes = {
 					0F978BAA1A50E8DD009B373F = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					0F978BC01A50E8DD009B373F = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 0F978BAA1A50E8DD009B373F;
 					};
 				};
 			};
@@ -186,7 +144,6 @@
 			projectRoot = "";
 			targets = (
 				0F978BAA1A50E8DD009B373F /* RSAutocomplete */,
-				0F978BC01A50E8DD009B373F /* RSAutocompleteTests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,13 +155,6 @@
 			files = (
 				0F978BB91A50E8DD009B373F /* Images.xcassets in Resources */,
 				0F978BBC1A50E8DD009B373F /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0F978BBF1A50E8DD009B373F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,23 +171,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0F978BBD1A50E8DD009B373F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0F978BC81A50E8DD009B373F /* RSAutocompleteTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0F978BC31A50E8DD009B373F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0F978BAA1A50E8DD009B373F /* RSAutocomplete */;
-			targetProxy = 0F978BC21A50E8DD009B373F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0F978BBA1A50E8DD009B373F /* Main.storyboard */ = {
@@ -349,42 +283,6 @@
 			};
 			name = Release;
 		};
-		0F978BCF1A50E8DD009B373F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = RSAutocompleteTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSAutocomplete.app/Contents/MacOS/RSAutocomplete";
-			};
-			name = Debug;
-		};
-		0F978BD01A50E8DD009B373F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = RSAutocompleteTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSAutocomplete.app/Contents/MacOS/RSAutocomplete";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -402,14 +300,6 @@
 			buildConfigurations = (
 				0F978BCC1A50E8DD009B373F /* Debug */,
 				0F978BCD1A50E8DD009B373F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		0F978BCE1A50E8DD009B373F /* Build configuration list for PBXNativeTarget "RSAutocompleteTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0F978BCF1A50E8DD009B373F /* Debug */,
-				0F978BD01A50E8DD009B373F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
