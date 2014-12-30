@@ -37,7 +37,6 @@ static NSString	* const kUNIXWordsFilePath = @"/usr/share/dict/words";
     
     if (!self.isCompleting) {
         self.completing = YES;
-//        self.lastTypedString = [[fieldEditor string] copy];
         [fieldEditor complete:nil];
         self.completing = NO;
     }
