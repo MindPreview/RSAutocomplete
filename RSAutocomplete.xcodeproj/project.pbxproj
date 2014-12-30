@@ -24,8 +24,6 @@
 		0F978BB61A50E8DD009B373F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0F978BB81A50E8DD009B373F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0F978BBB1A50E8DD009B373F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0F978BC61A50E8DD009B373F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0F978BC71A50E8DD009B373F /* RSAutocompleteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAutocompleteTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				0F978BAD1A50E8DD009B373F /* RSAutocomplete */,
-				0F978BC41A50E8DD009B373F /* RSAutocompleteTests */,
 				0F978BAC1A50E8DD009B373F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,23 +72,6 @@
 			children = (
 				0F978BAF1A50E8DD009B373F /* Info.plist */,
 				0F978BB31A50E8DD009B373F /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		0F978BC41A50E8DD009B373F /* RSAutocompleteTests */ = {
-			isa = PBXGroup;
-			children = (
-				0F978BC71A50E8DD009B373F /* RSAutocompleteTests.m */,
-				0F978BC51A50E8DD009B373F /* Supporting Files */,
-			);
-			path = RSAutocompleteTests;
-			sourceTree = "<group>";
-		};
-		0F978BC51A50E8DD009B373F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0F978BC61A50E8DD009B373F /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
