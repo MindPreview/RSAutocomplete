@@ -13,7 +13,6 @@
 		0F978BB91A50E8DD009B373F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F978BB81A50E8DD009B373F /* Images.xcassets */; };
 		0F978BBC1A50E8DD009B373F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F978BBA1A50E8DD009B373F /* Main.storyboard */; };
 		0F978BC81A50E8DD009B373F /* RSAutocompleteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F978BC71A50E8DD009B373F /* RSAutocompleteTests.m */; };
-		0F978BD31A50E98B009B373F /* RSAutocomplete.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F978BD21A50E98B009B373F /* RSAutocomplete.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +38,6 @@
 		0F978BC11A50E8DD009B373F /* RSAutocompleteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSAutocompleteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F978BC61A50E8DD009B373F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F978BC71A50E8DD009B373F /* RSAutocompleteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAutocompleteTests.m; sourceTree = "<group>"; };
-		0F978BD11A50E98B009B373F /* RSAutocomplete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAutocomplete.h; sourceTree = "<group>"; };
-		0F978BD21A50E98B009B373F /* RSAutocomplete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAutocomplete.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +86,6 @@
 				0F978BB81A50E8DD009B373F /* Images.xcassets */,
 				0F978BBA1A50E8DD009B373F /* Main.storyboard */,
 				0F978BAE1A50E8DD009B373F /* Supporting Files */,
-				0F978BD11A50E98B009B373F /* RSAutocomplete.h */,
-				0F978BD21A50E98B009B373F /* RSAutocomplete.m */,
 			);
 			path = RSAutocomplete;
 			sourceTree = "<group>";
@@ -222,7 +217,6 @@
 			files = (
 				0F978BB71A50E8DD009B373F /* ViewController.m in Sources */,
 				0F978BB41A50E8DD009B373F /* main.m in Sources */,
-				0F978BD31A50E98B009B373F /* RSAutocomplete.m in Sources */,
 				0F978BB21A50E8DD009B373F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
