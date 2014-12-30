@@ -14,7 +14,6 @@ static NSString	* const kUNIXWordsFilePath = @"/usr/share/dict/words";
 @property (nonatomic) IBOutlet NSTextField* textField;
 @property (nonatomic, assign, getter=isCompleting) BOOL completing;
 @property (nonatomic) NSArray* usernames;
-@property (nonatomic) NSString* lastTypedString;
 @end
 
 @implementation ViewController
@@ -38,7 +37,7 @@ static NSString	* const kUNIXWordsFilePath = @"/usr/share/dict/words";
     
     if (!self.isCompleting) {
         self.completing = YES;
-        self.lastTypedString = [[fieldEditor string] copy];
+//        self.lastTypedString = [[fieldEditor string] copy];
         [fieldEditor complete:nil];
         self.completing = NO;
     }
@@ -48,12 +47,12 @@ static NSString	* const kUNIXWordsFilePath = @"/usr/share/dict/words";
 {
     *index = -1;
 
+    NSString* toMatch = [textView string];
     NSArray* usernames = self.usernames;
-    if(0 == [self.lastTypedString length])
+    if(0 == [toMatch length])
         return usernames;
     
     NSMutableArray *matchedNames = [NSMutableArray array];
-    NSString* toMatch = self.lastTypedString;
     for(NSString *username in usernames) {
         if([username hasPrefix:toMatch])
             [matchedNames addObject:username];
